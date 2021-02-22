@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Elastic.Apm" Version="1.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AgroCivil.Usuario.Domain\AgroCivil.Usuario.Domain.csproj" />
+    <ProjectReference Include="..\AgroCivil.Usuario.Infra\AgroCivil.Usuario.Infra.csproj" />
+    
+  </ItemGroup>
+
+</Project>
